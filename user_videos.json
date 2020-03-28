@@ -1,0 +1,71 @@
+{
+  "url":'me/live_videos?fields=title,id,embed_html,video,from,comments,description,seconds_left,status,permalink_url,planned_start_time&transport=cors&source=owner&broadcast_status=["SCHEDULED_UNPUBLISHED"]',
+  "data": [
+    {
+      "title": "Beispiel für geplant, noch nicht live",
+      "id": "<live_id>",
+      "embed_html": "<iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2....\" width=\"400\" height=\"400\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allowFullScreen=\"true\"></iframe>",
+      "video": {
+        "id": "<video_id>"
+      },
+      "from": {
+        "name": "<Vorname> <Nachname>",
+        "id": "<user_id>"
+      },
+      "description": "Der Status ist SCHEDULED_UNPUBLISHED",
+      "seconds_left": 0,
+      "status": "SCHEDULED_UNPUBLISHED",
+      "permalink_url": "https://www.facebook.com/<user>/videos/<video_id>/",
+      "planned_start_time": "2020-03-31T01:00:00+0000",
+      "live_views": 0,
+      "dash_preview_url": "https://video-mxp1-1.xx.fbcdn.net/hvideo-prn1/_nc_cat-110/v/....",
+      "is_manual_mode": false
+    },
+    {
+      "title": "Beispiel für live",
+      "id": "<live_id>",
+      "embed_html": "<iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2....\" width=\"400\" height=\"400\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allowFullScreen=\"true\"></iframe>",
+      "video": {
+        "id": "<video_id>"
+      },
+      "from": {
+        "name": "<Vorname> <Nachname>",
+        "id": "<user_id>"
+      },
+      "description": "Der Status ist LIVE",
+      "seconds_left": 0,
+      "status": "LIVE",
+      "permalink_url": "https://www.facebook.com/<user>/videos/<video_id>/",
+      "planned_start_time": "2020-03-31T01:00:00+0000",
+      "live_views": 0,
+      "dash_preview_url": "https://video-mxp1-1.xx.fbcdn.net/hvideo-prn1/_nc_cat-110/v/....",
+      "is_manual_mode": false
+    },
+    {
+      "title": "Beispiel für Live beendet",
+      "id": "<live_id>",
+      "embed_html": "<iframe src=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2....\" width=\"400\" height=\"400\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\" allowFullScreen=\"true\"></iframe>",
+      "video": {
+        "id": "<video_id>"
+      },
+      "from": {
+        "name": "<Vorname> <Nachname>",
+        "id": "<user_id>"
+      },
+      "description": "Der Status ist VOD",
+      "seconds_left": 0,
+      "status": "VOD",
+      "permalink_url": "https://www.facebook.com/<user>/videos/<video_id>/",
+      "planned_start_time": "2020-03-31T01:00:00+0000",
+      "live_views": 0,
+      "dash_preview_url": "https://video-mxp1-1.xx.fbcdn.net/hvideo-prn1/_nc_cat-110/v/....",
+      "is_manual_mode": false
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIUkI5UnNiR2JHQ1h5cmNNb2VMMFdWRVBTblZAMSTNUUWk3RS1iQ2tVZAmhMQUZAYWTFXYjZAhQ0d5c2dMTEliVHQwQ3F3ekVxWnlYZA0JrTUlQTWJDZAGRndGhR",
+      "after": "QVFIUjdoMFhZAVkZA6Vkp3Qmc4TkZARNE9abV9ISzBHWUlhc2thV2VlbkNncnBCLUk0UFl4aVZANdGtJcEl6Q0RxR3p2ZA0dnd2FucHRSTHdCUnZAacU1yaDNxMVJn"
+    }
+  }
+}
